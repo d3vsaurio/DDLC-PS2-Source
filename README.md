@@ -8,7 +8,7 @@
 
 ## Downloads:
 
-- [DDLC PS2 v0.1](https://github.com/d3vsaurio/DDLC-PS2-Source/releases/download/v0.1.0/DDLC.zip)
+- [DDLC PS2 v0.1](https://github.com/d3vsaurio/DDLC-PS2-Source/releases/download/v0.1.0-beta/DDLC.zip)
 
 
 ## Usage:
