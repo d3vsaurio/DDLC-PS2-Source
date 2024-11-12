@@ -8,11 +8,14 @@ import { scnDummy } from "./scenes/scndummy.js"
 import { scnPoem } from "./scenes/scnpoem.js"
 import { ch0 } from "./scripts/script-ch0.js"
 import { timerClass } from "./ren/timerclass.js"
+import { scnLoading } from "./scenes/scnloading.js"
 
 export const ddlc = {
     init: function () {
         fonts.init()
         debug.init()
+        this.loading  = new Image("assets/images/loading.png")
+        this.nxt      = ''
         this.tiempo   = new timerClass(),
         this.pad      = Pads.get(0),
         this.curScene = 'select'
@@ -25,6 +28,7 @@ export const ddlc = {
             'ch0'     : new ch0(),
             'poem'    : new scnPoem(),
             'dummy'   : new scnDummy(),
+            'loading' : new scnLoading(),
         }
     },
     game: function () {

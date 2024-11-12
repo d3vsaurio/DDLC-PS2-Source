@@ -21,7 +21,7 @@ export class scnTitle extends stdScene {
     }
     update() {
         if (this.pad.justPressed(Pads.CROSS) && this.sw) {
-            this.nextScene('ch0')
+            this.loadScene('ch0')
         }
         this.sw = true
         this.cc++

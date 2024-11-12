@@ -42,5 +42,11 @@ export const audio = {
         else {
             Sound.pause(this.audio)
         }
+    },
+    silence () {
+        Sound.pause(this.audio)
+        this.audio = Sound.load("assets/audio/bgm/0.wav")
+        Sound.play(this.audio)
+        Sound.repeat(true)
     }
 }

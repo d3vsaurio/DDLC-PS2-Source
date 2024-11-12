@@ -33,6 +33,7 @@ export class ch0 extends dlgScene {
         else {
             ch0en(this.player)
         }
-        ddlc.newScene = "poem"
+        ddlc.nxt = 'poem'
+        ddlc.newScene = "loading"
     }
 }

@@ -14,6 +14,11 @@ export class stdScene { // for standar scenes
         ddlc.newScene = scn
         this.tScene = true
     }
+    loadScene(scn) { // new scene with loading...
+        ddlc.newScene = 'loading'
+        ddlc.nxt = scn
+        this.tScene = true
+    }
     update() {} // loop events for children classes
     tUpdate() { // main loop events
         while (!this.tScene) {
@@ -30,6 +35,5 @@ export class stdScene { // for standar scenes
     free() {} // before the next scene
     tFree() {
         this.free()
-        std.gc()
     }
 }

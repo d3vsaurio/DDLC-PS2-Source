@@ -1,7 +1,8 @@
+/src/vendor/*.js
+/assets/
+/dist/
 DDLC.elf
 DDLC.zip
 extract.js
 notes.txt
 package.json
-/src/vendor/*.js
-/assets/

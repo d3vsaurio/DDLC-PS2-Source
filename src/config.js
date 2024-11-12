@@ -11,7 +11,8 @@ export const trad = {
     es : {
         'New Game' : 'Nueva Partida',
         'Write your Name' : 'Escribe tu Nombre',
-        'Space' : 'Espacio',
-        'Done' : 'Hecho'
+        'Space'  : 'Espacio',
+        'Done'   : 'Hecho',
+        'Loading': 'Cargando'
     }
 }

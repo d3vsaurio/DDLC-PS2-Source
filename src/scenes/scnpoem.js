@@ -8,7 +8,7 @@ export class scnPoem extends stdScene {
     }
     update() {
         if (this.pad.justPressed(Pads.START)) {
-            this.nextScene('title')
+            this.loadScene('title')
         }
         this.imgTmp.draw(0, 0)
     }
